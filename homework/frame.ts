@@ -10,7 +10,7 @@ Abstract Class: PDU
 ├── set payload(val) — Setter                                               DONE
 └── isValid() — Abstract                                                    DONE
 │
-└── Child Class: EthFrame                                                   DOING
+└── Child Class: EthFrame                                                   DONE
 │
 ├── Attributes (Extended)                                                   DONE 4/4
 │   ├── dmac (String)                                                       DONE
@@ -29,7 +29,7 @@ Abstract Class: PDU
 │   ├── recalculateFcs() — Internal utility                                 DONE
 │   └── isValid() — Overridden; compares current fcs                        DONE
 │
-└── Utilities (Static/Special)                                              TODO 1/3
+└── Utilities (Static/Special)                                              DONE 3/3
 ├── static isValidMac(mac) — Regex check                                    DONE
 ├── toString() — Debug string rendering                                     DONE
 └── corruptData() — Manual error injection                                  DONE
